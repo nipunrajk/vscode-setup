@@ -52,6 +52,5 @@
   "leetcode.defaultLanguage": "javascript",
   "leetcode.hint.configWebviewMarkdown": false,
   "editor.linkedEditing": true,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -2
 }
-
