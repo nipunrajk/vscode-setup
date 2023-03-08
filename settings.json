@@ -11,7 +11,7 @@
   "emmet.triggerExpansionOnTab": true,
   "editor.minimap.enabled": false,
   "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
+  "prettier.semi": true,
   "prettier.singleQuote": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.formatOnPaste": true,
@@ -46,11 +46,12 @@
   "markdown.preview.fontSize": 16,
   "editor.guides.bracketPairs": true,
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "One Dark Pro Flat",
-  "javascript.format.semicolons": "remove",
+  "workbench.colorTheme": "Default Dark+",
   "leetcode.workspaceFolder": "/home/nipun/.leetcode",
   "leetcode.defaultLanguage": "javascript",
   "leetcode.hint.configWebviewMarkdown": false,
   "editor.linkedEditing": true,
-  "window.zoomLevel": -2
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.format.semicolons": "insert"
 }
