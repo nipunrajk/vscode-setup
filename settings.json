@@ -1,18 +1,17 @@
 {
-  "editor.fontSize": 22,
-  "files.autoSave": "off",
+  "editor.fontSize": 15,
   "editor.tabSize": 1,
   "editor.wordWrap": "on",
-  "terminal.integrated.fontSize": 19,
+  "terminal.integrated.fontSize": 12,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
 
   "emmet.triggerExpansionOnTab": true,
-  "editor.minimap.enabled": false,
-  "prettier.jsxSingleQuote": true,
+  "prettier.jsxSingleQuote": false,
   "prettier.semi": true,
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": false,
+  "prettier.colorSupport": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -43,7 +42,7 @@
   },
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "git.enableSmartCommit": true,
-  "markdown.preview.fontSize": 16,
+  "markdown.preview.fontSize": 10,
   "editor.guides.bracketPairs": true,
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Default Dark+",
@@ -53,5 +52,34 @@
   "editor.linkedEditing": true,
   "security.workspace.trust.untrustedFiles": "open",
   "explorer.confirmDragAndDrop": false,
-  "javascript.format.semicolons": "insert"
+  "javascript.format.semicolons": "insert",
+  "workbench.colorTheme": "Atom Material Theme",
+  "workbench.iconTheme": "vscode-icons",
+  "yaml.schemas": {
+    "file:///Users/nipunraj/.vscode/extensions/atlassian.atlascode-3.4.22/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "extends": "stylelint-config-standard",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "editor.stickyScroll.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "laravel-pint.enable": true,
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+  },
+  "files.autoSave": "afterDelay",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "javascriptreact": false,
+    "vue": true
+  },
+  "svg.preview.mode": "svg",
+  "editor.renderWhitespace": "trailing",
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  }
 }
