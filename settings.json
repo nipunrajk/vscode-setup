@@ -56,7 +56,7 @@
   "workbench.colorTheme": "Atom Material Theme",
   "workbench.iconTheme": "vscode-icons",
   "yaml.schemas": {
-    "file:///Users/nipunraj/.vscode/extensions/atlassian.atlascode-3.4.22/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/nipunraj/.vscode/extensions/atlassian.atlascode-3.8.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "extends": "stylelint-config-standard",
   "[astro]": {
